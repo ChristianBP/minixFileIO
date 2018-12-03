@@ -91,5 +91,7 @@ if !exists('g:loaded_matchit') && findfile('plugin/matchit.vim', &rtp) ==# ''
 endif
 
 inoremap <C-U> <C-G>u<C-U>
+imap jk <ESC>
 
+set number
 " vim:set ft=vim et sw=2:
